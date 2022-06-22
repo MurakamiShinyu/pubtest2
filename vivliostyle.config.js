@@ -1,4 +1,5 @@
-module.exports = {
+var hogehoge =
+ {
   title: 'test220607n', // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: 'MurakamiShinyu <murakami@vivliostyle.org>', // default to `author` in `package.json` or undefined.
   // language: 'ja', // default to undefined.
@@ -30,3 +31,5 @@ module.exports = {
   //   disableFormatHtml: true, // disables HTML formatting. default to 'false'.
   // },
 }
+
+module.exports = hogehoge
