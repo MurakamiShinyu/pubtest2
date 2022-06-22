@@ -3,7 +3,7 @@ module.exports = {
   author: 'MurakamiShinyu <murakami@vivliostyle.org>', // default to `author` in `package.json` or undefined.
   // language: 'ja', // default to undefined.
   // size: 'A4', // paper size.
-  theme: "mythemefoobaa", //'@vivliostyle/theme-academic', // .css or local dir or npm package. default to undefined.
+  theme: "https://vivliostyle.github.io/vivliostyle_doc/samples/gutenberg/gutenberg.css", //'@vivliostyle/theme-academic', // .css or local dir or npm package. default to undefined.
   entry: [
     { path: 'fet.md' },
     { path: 'microcomputer.md' }, // `title` is automatically guessed from the file (frontmatter > first heading).
