@@ -6,7 +6,7 @@ const vivliostyleConfig = {
   // language: 'la',
   // readingProgression: 'rtl', // reading progression direction, 'ltr' or 'rtl'.
   // size: 'A4',
-  // theme: '', // .css or local dir or npm package. default to undefined
+  theme: 'style.css', // .css or local dir or npm package. default to undefined
   image: 'ghcr.io/vivliostyle/cli:5.1.0',
   entry: [ // **required field**
     // 'introduction.md', // 'title' is automatically guessed from the file (frontmatter > first heading)
