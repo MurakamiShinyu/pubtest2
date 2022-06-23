@@ -33,4 +33,4 @@ const vivliostyleConfig = {
   // },
 };
 
-module.exports = vivliostyleConfig;
+module.exports = vivliostyleConfig; // }; TEST
